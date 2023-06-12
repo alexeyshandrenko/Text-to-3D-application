@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя HTML-страница</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+   <form class="form" method="post">
+        <p>Enter text prompt of 3D model</p>
+        <input type="text" name="prompt"></input>
+        <button type="submit">Submit</button>
+   </form>
+</body>

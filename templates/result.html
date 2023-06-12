@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text-to-3d</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="result">
+        <h1 class="result__title">Congratulations! Your 3D model is ready!</h1>
+        <div class="result__container">
+            <a href=static/result_download_256.obj>Download 3d model</a>
+        </div>
+        <img src={{url_for('static', filename=video_name)}}>
+        <a href=/ class="main">Go to main page...</a>
+    </div>
+</body>
